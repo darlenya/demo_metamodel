@@ -1,0 +1,15 @@
+{
+	"identity": {
+		"attributes": {
+			"first_name": {
+				"type": "string"
+			},
+			"last_name": "string",
+			"email": "string",
+			"date_of_birth": "date"
+		},
+		"references": {
+
+		}
+	}
+}
