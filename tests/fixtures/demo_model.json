@@ -1,6 +1,28 @@
 {
+	"application": {
+		"description": "The definition of an application",
+		"attributes": {
+			"app_id": {
+				"type": "string",
+				"description": "The ID for this application",
+				"in_key_hash": true
+			},
+			"name": {
+				"type": "string",
+				"description": "The name of the application"
+			},
+			"description": "string",
+			"creation_date": "date"
+		}
+	},
+
 	"identity": {
 		"attributes": {
+			"identity_id": {
+				"type": "string",
+				"description": "An id identifying this identity",
+				"in_key_hash": true
+			},
 			"first_name": {
 				"type": "string"
 			},

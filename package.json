@@ -48,6 +48,7 @@
     "semantic-release": "^4.3.5"
   },
   "dependencies": {
+    "change-case": "^3.0.0",
     "loglevel-mixin": "^1.4.2"
   }
 }

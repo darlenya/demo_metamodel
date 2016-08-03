@@ -1,0 +1,32 @@
+{
+	"application": {
+		"description": "The definition of an application",
+		"attributes": {
+			"name": {
+				"type": "GraphQLString",
+				"description": "The name of the application"
+			},
+			"description": {
+				"type": "GraphQLString"
+			},
+			"creation_date": {}
+		},
+		"references": {}
+	},
+	"identity": {
+		"description": "",
+		"attributes": {
+			"first_name": {
+				"type": "GraphQLString"
+			},
+			"last_name": {
+				"type": "GraphQLString"
+			},
+			"email": {
+				"type": "GraphQLString"
+			},
+			"date_of_birth": {}
+		},
+		"references": {}
+	}
+}
