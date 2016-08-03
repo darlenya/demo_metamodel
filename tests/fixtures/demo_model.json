@@ -7,9 +7,6 @@
 			"last_name": "string",
 			"email": "string",
 			"date_of_birth": "date"
-		},
-		"references": {
-
 		}
 	}
 }
