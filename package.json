@@ -49,6 +49,8 @@
   },
   "dependencies": {
     "change-case": "^3.0.0",
-    "loglevel-mixin": "^1.4.2"
+    "deepcopy": "^0.6.3",
+    "loglevel-mixin": "^1.4.2",
+    "pluralize": "^3.0.0"
   }
 }
